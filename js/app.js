@@ -41,19 +41,19 @@ function myFunction() {
   
     // if statement compares if the 'randomNum' is equal to 'userNum'
     if (randomNum == userNum) {
-      alert("You are a Winner!"); 
+      document.getElementById("feedback").innerHTML = "You are a Winner!"; 
     } else if (Math.abs(totalRandom) >= 50) {    
-      alert("You are Ice Cold");
+      document.getElementById("feedback").innerHTML = "You are Ice Cold";
     } else if (Math.abs(totalRandom) >= 30 && Math.abs(totalRandom) <= 49) {
-      alert("You are Cold");     
+      document.getElementById("feedback").innerHTML = "You are Cold";     
     } else if (Math.abs(totalRandom) >= 20 && Math.abs(totalRandom) <= 29) {
-      alert("You are Warm");     
+      document.getElementById("feedback").innerHTML = "You are Warm";     
     } else if (Math.abs(totalRandom) >= 10 && Math.abs(totalRandom) <= 19) {
-      alert("You are Hot");     
+      document.getElementById("feedback").innerHTML = "You are Hot";     
     } else if (Math.abs(totalRandom) >= 6 && Math.abs(totalRandom) <=9) {
-      alert("You are very Hot");
+      document.getElementById("feedback").innerHTML = "You are very Hot";
     } else if (Math.abs(totalRandom) <= 5) {
-      alert("You are en Fuego");
+      document.getElementById("feedback").innerHTML = "You are en Fuego";
     } 
   } 
 var count = 0;
