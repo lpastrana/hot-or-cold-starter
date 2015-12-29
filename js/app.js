@@ -57,6 +57,8 @@ function myFunction() {
   var numCreate = document.createTextNode(userGuess.value);
   numDisplay.appendChild(numCreate);  
   document.getElementById("guessList").appendChild(numDisplay);
+
+
 } 
 // Counter that keeps the numbers guessed and also displayed
 var count = 0;
